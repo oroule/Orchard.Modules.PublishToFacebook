@@ -4,7 +4,11 @@ Author: Robert Lundberg
 Website: http://orchardproject.net
 Version: 1.0
 OrchardVersion: 1.8
-Description: Publish to facebook activity
+Description: Publish to facebook activity.
+FeatureDescription:  Publish to facebook activity.
+Category: Workflows
 Features:
     KRL.PublishToFacebook:
+		Name: Publish to Facebook
         Description: Publish to facebook activity
+		Dependencies: Orchard.Workflows
